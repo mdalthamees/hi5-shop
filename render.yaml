@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hi5-karuppu-kadai
+    runtime: static
+    rootDir: hi5-karuppu-kadai
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
