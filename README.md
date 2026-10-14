@@ -1,6 +1,7 @@
 # HI-5 கருப்பு கடை
 
 Responsive boutique storefront for HI-5 கருப்பு கடை, built with React and Vite.
+🚀 HI5 Footwear & Boutiques – A modern, responsive website showcasing ladies’ fashion, kids’ collections, trending styles, and footwear. Built with React.js, Vite, CSS, and Framer Motion, featuring premium design, smooth animations, and mobile-friendly layouts. ❤️🖤
 
 ## Run locally
 
