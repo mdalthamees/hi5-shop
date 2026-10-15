@@ -378,12 +378,6 @@ textarea {
     z-index: 2;
   }
 
-  section,
-  main > div > section {
-    padding-top: 2rem !important;
-    padding-bottom: 2.5rem !important;
-  }
-
   .review-card {
     width: min(82vw, 280px);
     min-height: 180px;
