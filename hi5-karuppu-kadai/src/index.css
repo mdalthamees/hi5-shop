@@ -336,7 +336,10 @@ textarea {
   }
 
   .scroll-reveal {
-    transform: translate3d(0, 16px, 0) scale(0.99);
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
   }
 
   .hero-entrance-4 {
@@ -368,11 +371,6 @@ textarea {
     padding-bottom: 0.9rem;
   }
 
-  main > div > section:not(:first-child) {
-    padding-block: 3rem !important;
-    margin-block-end: 0;
-  }
-
   .hero-visual-frame {
     position: relative;
     right: auto;
@@ -381,6 +379,11 @@ textarea {
     height: 210px;
     margin: 0 auto 1.2rem;
     z-index: 2;
+  }
+
+  section {
+    padding-top: 2rem !important;
+    padding-bottom: 2.5rem !important;
   }
 
   .review-card {

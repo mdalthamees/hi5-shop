@@ -31,11 +31,12 @@ export default function Navbar({ scrolled, activeTab, mobileMenuOpen, setMobileM
 
   return (
     <nav
-      className={`nav-shell sticky top-0 w-full z-50 transition-all duration-500 ${
+      className={`nav-shell fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         scrolled
           ? 'border-b border-red-950/60 bg-[#050505]/95 py-3 shadow-2xl backdrop-blur-md'
           : 'border-b border-zinc-900/80 bg-[#050505]/95 py-3 sm:py-4 shadow-[0_10px_30px_rgba(0,0,0,0.28)] backdrop-blur-md'
       }`}
+      style={{ position: 'sticky', top: 0 }}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-3 sm:px-6">
         <button onClick={onLogoClick} aria-label="HI-5 கருப்பு கடை home" className="group flex min-w-0 shrink items-center gap-2 text-left sm:gap-3">

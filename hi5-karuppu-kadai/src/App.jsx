@@ -164,7 +164,7 @@ export default function App() {
 
       <main className="flex-grow pt-16 sm:pt-20">
         {isHome && (
-          <div>
+          <>
             <section className="relative min-h-[72vh] sm:min-h-[92vh] flex items-center justify-center px-3 sm:px-6 overflow-hidden bg-[#090909]">
               <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,191,36,0.12),transparent_25%),linear-gradient(135deg,_rgba(120,15,15,0.35),rgba(8,8,8,0.32)_55%,rgba(8,8,8,0.92))]" />
@@ -634,7 +634,7 @@ export default function App() {
                 </div>
               </div>
             </section>
-          </div>
+          </>
         )}
 
         {[...CATEGORY_IDS, 'order'].includes(activeTab) && (
